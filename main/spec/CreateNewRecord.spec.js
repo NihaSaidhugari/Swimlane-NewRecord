@@ -6,7 +6,7 @@ helper = new Helper();
 
 describe('Swimlane', function() {
 
-	it('Login to the application with valid credantials', async function() {
+	it('Login to the application with valid credentials', async function() {
 		
 		await browser.driver.get(browser.params.url);
 		var userName = 'vivekananda.chakravarthy';
